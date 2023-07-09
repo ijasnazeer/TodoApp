@@ -1,0 +1,49 @@
+body
+{
+    margin: 0;
+    background-color: #267e90;
+    font-family: -apple-system, BlinkMacSystemFont;
+}
+
+.todo-container
+{
+    width: 350px;   
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #0053633f;
+    padding: 20px;
+
+}
+
+
+
+.input-section input
+{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+ul{
+    text-align: left;
+    padding: 0;
+}
+
+ul li 
+{
+    list-style: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+ul li i {
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
